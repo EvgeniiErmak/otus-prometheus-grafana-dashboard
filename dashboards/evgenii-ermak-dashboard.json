@@ -15,7 +15,6 @@
       }
     ]
   },
-  "description": "",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
@@ -176,7 +175,7 @@
               }
             ]
           },
-          "unit": "binBps"
+          "unit": "percent"
         }
       },
       "gridPos": {
@@ -459,5 +458,5 @@
   "timezone": "browser",
   "title": "Евгений Ермак / Evgenii Ermak",
   "uid": "ad8z2ww",
-  "version": 1
+  "version": 2
 }
