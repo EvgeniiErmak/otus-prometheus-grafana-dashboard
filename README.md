@@ -17,8 +17,8 @@
 ## Структура репозитория
 - 📁 [configs/](configs/) — [prometheus.yml](configs/prometheus.yml), [prometheus.service](configs/prometheus.service), [node_exporter.service](configs/node_exporter.service)
 - 📁 [scripts/](scripts/) — скрипты установки, экспорта дашборда и публикации в GitHub
-- 📁 [dashboards/](dashboards/) — JSON дашборда (dashboard as code)
-- 📁 [screenshots/](screenshots/) — скриншоты выполнения
+- 📁 [dashboards/](dashboards/) — [JSON дашборда](dashboards/evgenii-ermak-dashboard.json) (dashboard as code)
+- 📁 [screenshots/](screenshots/) — скриншоты выполнения задания и итогового дашборда
 
 ## Панели дашборда
 | Панель | PromQL | Единицы |
