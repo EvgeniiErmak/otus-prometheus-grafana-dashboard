@@ -28,9 +28,6 @@
 | Диск (чтение / запись) | `rate(node_disk_read_bytes_total{device="nvme0n1"}[1m])`<br>`rate(node_disk_written_bytes_total{device="nvme0n1"}[1m])` | bytes/sec (IEC) |
 | Сеть (вход / выход) | `rate(node_network_receive_bytes_total{device="enp2s0"}[1m]) * 8`<br>`rate(node_network_transmit_bytes_total{device="enp2s0"}[1m]) * 8` | bits/sec (SI) |
 
-## Результат
-![Дашборд Евгений Ермак / Evgenii Ermak](screenshots/12_dashboard.png)
-
 ## Как повторить
 ```bash
 bash scripts/01_install_prometheus.sh
